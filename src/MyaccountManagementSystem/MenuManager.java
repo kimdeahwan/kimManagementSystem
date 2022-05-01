@@ -14,8 +14,7 @@ public class MenuManager {
 	        	System.out.println("2. Delete Money");
 	        	System.out.println("3. View Money");
 	         	System.out.println("4. Show a menu");
-	        	System.out.println("5. Exit");
-	        	System.out.print("Select one number between 1-6:");
+	        	System.out.print("Select one number between 1-4:");
 	        	num = input.nextInt();
 	        	if(num == 1 ) {
 	        		accountManger.addMoney();
