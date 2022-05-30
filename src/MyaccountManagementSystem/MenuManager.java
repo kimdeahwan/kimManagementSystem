@@ -20,7 +20,7 @@ public class MenuManager {
 	        		num = input.nextInt();
 	      		}
 	      		catch(java.util.InputMismatchException e) {
-	      			System.out.println("숫자를 입력해주세요");
+	      			System.out.println("ERORR");
 	      			throw e;
 	      		}
 	        	num = input.nextInt();
